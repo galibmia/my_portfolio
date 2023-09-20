@@ -57,13 +57,14 @@ nav li {
 
 .banner {
   display: flex;
-  margin: 0 226px;
+  margin: 0 38px 0 225px;
   align-items: center;
   justify-content: space-between;
 }
 
 .banner-img {
   height: 650px;
+  
 }
 
 .banner-title {
@@ -86,6 +87,7 @@ nav li {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 30px;
+  padding-right: 163px;
 }
 
 /* Main styles */

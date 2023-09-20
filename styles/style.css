@@ -17,6 +17,10 @@
   font-weight: 700;
   font-size: 20px;
 }
+.btn-primary:hover{
+  background: #db3604;
+  cursor: pointer;
+}
 
 /* Header and Nav */
 .header {

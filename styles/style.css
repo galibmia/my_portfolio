@@ -57,7 +57,7 @@ nav li {
 
 .banner {
   display: flex;
-  margin: 0 38px 0 225px;
+  margin: 0 100px 0 225px;
   align-items: center;
   justify-content: space-between;
 }

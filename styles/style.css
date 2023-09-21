@@ -188,6 +188,10 @@ main {
 }
 
 /* Resume section start */
+.resume .section-head {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
 
 .resume-content {
   display: flex;

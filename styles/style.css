@@ -151,7 +151,6 @@ main {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  /* margin-bottom: 50px; */
   margin: 0 200px 50px 200px;
 }
 
@@ -287,4 +286,85 @@ footer p{
 }
 footer a{
   display: block;
+}
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .banner, nav, nav ul, .skill-container, .resume-content, .about-info-container, .contact {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+  .header{
+    background-image: none;
+  }
+  .banner{
+    margin: 10px;
+  }
+  nav ul{
+    align-items: start;
+    padding: 10px;
+  }
+  nav li {
+    margin-left: 5px;
+  }
+  .banner-discriptions{
+    padding-right: 10px;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-description {
+    margin: 10px;
+    padding: 10px;
+  }
+  hr{
+    width: 100%;
+  }
+  .about{
+    padding: 10px;
+  }
+
+  .contact input[type="text"], input[type="email"], textarea{
+    padding: 0 0 0 5px;
+  }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+ .skill-container, .resume-content, .about-info-container, .contact {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .section-description {
+    margin: 10px;
+    padding: 10px;
+  }
+  .about{
+    padding: 10px;
+  }
+  nav .btn-primary {
+    width: 150px;
+    font-size: 20px;
+  }
+
+}
+@media screen and (min-width: 993px) and (max-width: 1160px){
+
+  .banner{
+    flex-direction: column;
+  }
+  nav .btn-primary {
+    width: 150px;
+    font-size: 20px;
+  }
 }

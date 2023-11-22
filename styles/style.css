@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -51,6 +52,10 @@ nav ul {
 nav li {
   list-style: none;
   margin-left: 50px;
+  
+}
+nav li a{
+  color: #474747;
 }
 
 /* banner design */
